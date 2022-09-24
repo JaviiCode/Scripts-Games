@@ -1,0 +1,14 @@
+$.each($(".number-of-players"), function(ev){
+    let val = $(this).text();
+    val = val.split("/");
+    let val1 = val[0];
+
+    val1 = Number(val1.replace(/ /g,""));
+    if(val1 > 10){
+        let title = $(this).parents().find(".autoResizeLine").text();
+        if(title.indexOf("WORLD WAR 3 (4X") >= 0){
+       
+        }
+    }
+
+});
